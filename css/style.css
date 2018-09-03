@@ -1,83 +1,88 @@
-html,body{ 
-  height:100%;
-  width:100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-.heading{
-width: 70%;
-    margin: 0 auto;
+.heading {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 3%;
 }
-.info{
-  position:fixed;
-left: 5.1%;
-top: 35%;
+.info {
+  width: 35%;
+  margin-left: 1%;
+  margin-top: 3%;
 }
-.info2{
-  position:fixed;
-left:71%;
-top: 45%;
+.info2 {
+  width: 25%;
+  margin-right: 5%;
+  margin-top: 8%;
 }
 .left-eye-container {
   height: 40%;
   width: 40%;
   position: fixed;
-   left30%;
+  left: 30%;
 }
 .right-eye-container {
   height: 40%;
   width: 40%;
-  position:fixed;
-   left:30%;
+  position: fixed;
+  left: 30%;
 }
 .footer {
   display: flex;
-    justify-content: center;
-    z-index:2;
+  justify-content: center;
+  z-index: 2;
 }
 .face-container {
   height: 40%;
   width: 40%;
-  top:10%;
-  left:30%;
+  top: 10%;
+  left: 30%;
   position: fixed;
 }
-.heart{
-     width: 7%;
-    margin: 0 2%;
+.heart {
+  width: 7%;
+  margin: 0 2%;
+  margin-left: 0%;
 }
-.dice{
-     width: 7%;
-    margin: 0 2%;
+.dice {
+  width: 7%;
+  margin: 0 2%;
 }
-.diamond{
-     width: 7%;
-    margin: 0 2%;
+.diamond {
+  width: 7%;
+  margin: 0 2%;
 }
-.envelope{
-      width: 7%;
-    margin: 0 2%;
+.envelope {
+  width: 7%;
+  margin: 0 2%;
 }
-.move-area{/*normally use body*/
+.move-area {
+  /*normally use body*/
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index:-1;
+  z-index: -1;
 }
 .container {
   width: 100%;
-    height: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .eye {
   position: relative;
   display: inline-block;
   border-radius: 50%;
-  height: 110px;
-  width: 110px;
-  background: #ccc;
+  height: 70px;
+  width: 70px;
+  margin: 0 0.5%;
 }
-.eye:after { /*pupil*/
+.eye:after {
+  /*pupil*/
   position: absolute;
   bottom: 25px;
   right: 12px;
@@ -85,9 +90,18 @@ top: 45%;
   height: 13px;
   background: #000;
   border-radius: 50%;
-  content: "  ";
+  content: '  ';
 }
 .content {
-      width: 100%;
-    height: 57%;
+  width: 100%;
+  height: 57%;
+  display: flex;
+  justify-content: space-between;
+}
+.face {
+  z-index: -1;
+  position: absolute;
+  left: 34%;
+  top: 2%;
+  width: 30%;
 }
