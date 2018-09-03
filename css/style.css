@@ -40,19 +40,19 @@ top: 45%;
   position: fixed;
 }
 .heart{
-     width: 7%;
+     width: 4%;
     margin: 0 2%;
 }
 .dice{
-     width: 7%;
+    width: 4%;
     margin: 0 2%;
 }
 .diamond{
-     width: 7%;
+ width: 4%;
     margin: 0 2%;
 }
 .envelope{
-      width: 7%;
+     width: 4%;
     margin: 0 2%;
 }
 .move-area{/*normally use body*/
