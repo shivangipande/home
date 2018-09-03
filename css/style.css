@@ -31,6 +31,7 @@ top: 45%;
 .footer {
   display: flex;
     justify-content: center;
+    z-index:2;
 }
 .face-container {
   height: 40%;
@@ -40,25 +41,26 @@ top: 45%;
   position: fixed;
 }
 .heart{
-     width: 4%;
+     width: 7%;
     margin: 0 2%;
 }
 .dice{
-    width: 4%;
+     width: 7%;
     margin: 0 2%;
 }
 .diamond{
- width: 4%;
+     width: 7%;
     margin: 0 2%;
 }
 .envelope{
-     width: 4%;
+      width: 7%;
     margin: 0 2%;
 }
 .move-area{/*normally use body*/
   width: 100%;
   height: 100%;
   position: absolute;
+  z-index:-1;
 }
 .container {
   width: 100%;
