@@ -3,43 +3,35 @@ html,body{
   width:100%;
 }
 .heading{
-position:fixed;
-  height:21.8%;
-  width:70%;
-  left: 13%;
-top: 2%;
-
+width: 70%;
+    margin: 0 auto;
 }
 .info{
   position:fixed;
 left: 5.1%;
 top: 35%;
 }
-
 .info2{
   position:fixed;
 left:71%;
 top: 45%;
 }
-
-
-
-
 .left-eye-container {
   height: 40%;
   width: 40%;
   position: fixed;
    left30%;
 }
-
 .right-eye-container {
   height: 40%;
   width: 40%;
   position:fixed;
    left:30%;
 }
-
-
+.footer {
+  display: flex;
+    justify-content: center;
+}
 .face-container {
   height: 40%;
   width: 40%;
@@ -48,41 +40,37 @@ top: 45%;
   position: fixed;
 }
 .heart{
- position: absolute;
-
-left: 31.7%;
-top: 87%; 
+     width: 7%;
+    margin: 0 2%;
 }
 .dice{
- position: absolute;
-left: 41.2%;
-top: 87%; 
+     width: 7%;
+    margin: 0 2%;
 }
 .diamond{
-  position: absolute;
-left: 50.3%;
-top: 87%; 
-
+     width: 7%;
+    margin: 0 2%;
 }
 .envelope{
- position: absolute;
-left:60.1%;
-top: 87%; 
+      width: 7%;
+    margin: 0 2%;
 }
-
 .move-area{/*normally use body*/
   width: 100%;
   height: 100%;
- 
+  position: absolute;
 }
 .container {
   width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .eye {
   position: relative;
   display: inline-block;
   border-radius: 50%;
-  top:400px;
   height: 110px;
   width: 110px;
   background: #ccc;
@@ -96,4 +84,8 @@ top: 87%;
   background: #000;
   border-radius: 50%;
   content: "  ";
+}
+.content {
+      width: 100%;
+    height: 57%;
 }
