@@ -1,22 +1,25 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
+    height: 90vh;
+    width: 135vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0 auto;
 }
 .heading {
-  width: 54%;
-  margin: 0 auto;
-  margin-top: 3%;
+    width: 107vh;
+    margin: 0 auto;
+    margin-top: 4vh;
 }
 .info {
-  width: 35%;
-  margin-left: 1%;
-  margin-top: 3%;
+    width: 42vh;
+    margin-left: 4vh;
+    margin-top: 4vh;
 }
 .info2 {
-  width: 25%;
-  margin-right: 5%;
-  margin-top: 8%;
+    width: 35vh;
+    margin-right: 7vh;
+    margin-top: 10vh;
 }
 .left-eye-container {
   height: 40%;
@@ -31,9 +34,10 @@ body {
   left: 30%;
 }
 .footer {
-  display: flex;
-  justify-content: center;
-  z-index: 2;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    margin-top: 3vh;
 }
 .face-container {
   height: 40%;
@@ -43,43 +47,44 @@ body {
   position: fixed;
 }
 .heart {
-  width: 4%;
-  margin: 0 2%;
-  margin-left: 0%;
+    width: 8vh;
+    margin: 0 3vh;
+    margin-left: 0vh;
 }
 .dice {
-  width: 4%;
-  margin: 0 2%;
+  width: 8vh;
+  margin: 0 2vh;
 }
 .diamond {
-  width: 4%;
-  margin: 0 2%;
+ width: 8vh;
+  margin: 0 2vh;
 }
 .envelope {
-  width: 4%;
-  margin: 0 2%;
+  width: 8vh;
+  margin: 0 2vh;
 }
 .move-area {
-  /*normally use body*/
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
+     width: 132vh;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
 }
 .container {
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+     width: 132vh;
+    height: 99vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .eye {
-     position: relative;
+    position: relative;
     display: inline-block;
-    border-radius: 100%;
-    height: 7%;
-    width: 5%;
-    margin: 0 0.5%;
+    border-radius: 14vh;
+    height: 8vh;
+    width: 8vh;
+    left: 3vh;
+    top: 3vh;
+    margin: 0 1vh;
 }
 .eye:after {
   /*pupil*/
@@ -93,15 +98,15 @@ body {
   content: '  ';
 }
 .content {
-  width: 100%;
-  height: 57%;
-  display: flex;
-  justify-content: space-between;
+    width: 135vh;
+    height: 48vh;
+    display: flex;
+    justify-content: space-between;
 }
 .face {
- z-index: -1;
-   position: absolute;
-   left: 39%;
-   top: 1%;
-   width: 311px;
+    z-index: -1;
+    position: absolute;
+    left: 47vh;
+    top: 4vh;
+    width: 41vh;
 }
