@@ -99,9 +99,9 @@ body {
   justify-content: space-between;
 }
 .face {
-  z-index: -1;
-  position: absolute;
-  left: 37%;
-  top: 1%;
-  width: 25%;
+ z-index: -1;
+   position: absolute;
+   left: 39%;
+   top: 1%;
+   width: 311px;
 }
