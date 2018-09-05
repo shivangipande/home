@@ -80,6 +80,7 @@ body {
     height: 7%;
     width: 5%;
     margin: 0 0.5%;
+}
 .eye:after {
   /*pupil*/
   position: absolute;
