@@ -1,4 +1,4 @@
-setTimeout(fade_out, 7000);
+setTimeout(fade_out, 9000);
 
 function fade_out() {
   $("#mydiv").fadeOut().empty();
