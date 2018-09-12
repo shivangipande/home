@@ -6,6 +6,7 @@ body {
     overflow-x: hidden;
     margin: 0 auto;
 }
+
 .all{
     position: absolute;
     height: 100vh;
@@ -28,6 +29,11 @@ body {
 .text{
     margin-left: 5vh;
 }
+
+
+path:hover {
+    fill: #ccc;}
+
 .heading {
     width: 107vh;
     margin: 0 auto;
@@ -68,18 +74,39 @@ body {
   left: 30%;
   position: fixed;
 }
+.heart:hover path {
+    fill: #EF2424;
+    transition: 1s;
+    transform: scale(0.99,0.99);
+    
+}
 .heart {
     width: 8vh;
     margin: 0 3vh;
-    margin-left: 0vh;
+    
+}
+.dice:hover path{
+    fill: #245DEF;
+     transition: 1s;
+    transform: scale(0.99,0.99);
 }
 .dice {
   width: 8vh;
   margin: 0 2vh;
 }
+.diamond:hover path {
+    fill: #EFAA24;
+     transition: 1s;
+    transform: scale(0.99,0.99);
+}
 .diamond {
  width: 8vh;
   margin: 0 2vh;
+}
+.envelope:hover path{
+    fill: #24EF5D;
+     transition: 1s;
+    transform: scale(0.99,0.99);
 }
 .envelope {
   width: 8vh;
