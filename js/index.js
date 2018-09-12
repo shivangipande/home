@@ -1,4 +1,4 @@
-setTimeout(fade_out, 7000);
+setTimeout(fade_out, 8000);
 
 function fade_out() {
   $("#mydiv").fadeOut().empty();
@@ -11,9 +11,9 @@ for (var i = 0; i < pathEls.length; i++) {
   anime({
     targets: pathEl,
     strokeDashoffset: [offset, 0],
-    duration: 4000,
-    delay: 60,
-    loop: true,
+    duration:7000,
+    delay: 40,
+    loop: false,
     direction: 'alternate',
     easing: 'easeInOutSine',
     autoplay: true
