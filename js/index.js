@@ -1,7 +1,7 @@
-setTimeout(fade_out, 8000);
+setTimeout(fade_out, 9000);
 
 function fade_out() {
-  $("#mydiv").fadeOut().empty();
+  $("#mydiv").fadeOut('slow','linear').empty();
 }
 var pathEls = document.querySelectorAll('.anim path');
 for (var i = 0; i < pathEls.length; i++) {
@@ -11,7 +11,7 @@ for (var i = 0; i < pathEls.length; i++) {
   anime({
     targets: pathEl,
     strokeDashoffset: [offset, 0],
-    duration:7000,
+    duration: 7000,
     delay: 40,
     loop: false,
     direction: 'alternate',
