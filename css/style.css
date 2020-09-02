@@ -75,6 +75,13 @@ path:hover {
     position: absolute;
     z-index: -1;
 }
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    margin-top: 3vh;
+}
 .container {
      width: 132vh;
     height: 99vh;
