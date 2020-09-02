@@ -60,13 +60,7 @@ path:hover {
   width: 40%;
   position: fixed;
   left: 30%;
-}
-.footer {
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-    margin-top: 3vh;
-}
+
 .face-container {
   height: 40%;
   width: 40%;
@@ -74,44 +68,7 @@ path:hover {
   left: 30%;
   position: fixed;
 }
-.heart:hover path {
-    fill: #EF2424;
-    transition: 1s;
-    transform: scale(0.99,0.99);
-    
-}
-.heart {
-    width: 8vh;
-    margin: 0 3vh;
-    
-}
-.dice:hover path{
-    fill: #245DEF;
-     transition: 1s;
-    transform: scale(0.99,0.99);
-}
-.dice {
-  width: 8vh;
-  margin: 0 2vh;
-}
-.diamond:hover path {
-    fill: #EFAA24;
-     transition: 1s;
-    transform: scale(0.99,0.99);
-}
-.diamond {
- width: 8vh;
-  margin: 0 2vh;
-}
-.envelope:hover path{
-    fill: #24EF5D;
-     transition: 1s;
-    transform: scale(0.99,0.99);
-}
-.envelope {
-  width: 8vh;
-  margin: 0 2vh;
-}
+
 .move-area {
      width: 132vh;
     height: 100vh;
