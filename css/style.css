@@ -1,12 +1,12 @@
 html,
 body {
-    height: 90vh;
     height: 70vh;
     width: 135vh;
     overflow-y: hidden;
     overflow-x: hidden;
     margin: 0 auto;
 }
+
 .all{
     position: absolute;
     height: 100vh;
@@ -29,8 +29,11 @@ body {
 .text{
     margin-left: 5vh;
 }
+
+
 path:hover {
     fill: #ccc;}
+
 .heading {
     width: 107vh;
     margin: 0 auto;
