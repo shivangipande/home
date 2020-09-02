@@ -1,12 +1,12 @@
 html,
 body {
     height: 90vh;
+    height: 70vh;
     width: 135vh;
     overflow-y: hidden;
     overflow-x: hidden;
     margin: 0 auto;
 }
-
 .all{
     position: absolute;
     height: 100vh;
@@ -29,11 +29,8 @@ body {
 .text{
     margin-left: 5vh;
 }
-
-
 path:hover {
     fill: #ccc;}
-
 .heading {
     width: 107vh;
     margin: 0 auto;
@@ -78,13 +75,12 @@ path:hover {
     fill: #EF2424;
     transition: 1s;
     transform: scale(0.99,0.99);
-
+    
 }
 .heart {
     width: 8vh;
     margin: 0 3vh;
-    margin-left: 0vh;
-
+    
 }
 .dice:hover path{
     fill: #245DEF;
